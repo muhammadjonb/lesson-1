@@ -49,8 +49,8 @@ let vazifa = (time, work) => {
 };
 
 vazifa(1000, () => console.log("Kampyuterni yoqdim"))
-.then(() =>vazifa(1000, () => console.log('VS code ga kirdim')));
-.then(() =>vazifa(1000, () => console.log('Kerakli Fayllarni ochdim')));
-.then(() =>vazifa(1000, () => console.log('kerakli ko`dlarni yozdim')));
-.then(() =>vazifa(1000, () => console.log('GitHupga joyladim')));
-.then(() =>vazifa(1000, () => console.log('Vazifani jo`nattim')));
+.then(() =>vazifa(1000, () => console.log('VS code ga kirdim')))
+.then(() =>vazifa(1000, () => console.log('Kerakli Fayllarni ochdim')))
+.then(() =>vazifa(1000, () => console.log('kerakli ko`dlarni yozdim')))
+.then(() =>vazifa(1000, () => console.log('GitHupga joyladim')))
+.then(() =>vazifa(1000, () => console.log('Vazifani jo`nattim')))
